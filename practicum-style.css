@@ -48,16 +48,17 @@ body {
   .description {
     left: 50%;
     position: absolute;
-    top: 45%;
+    top: 60%;
     transform: translate(-50%, -55%);
-    text-align: center;
+    text-align: justify;
     background-color: #33829cb6;
-    padding-right: 1%;
     padding-left: 1%;
+    padding-right: 1%;
   }
   
   .description h1 {
     color: #fff;
+    text-align: center;
   }
   
   .description p {
@@ -66,6 +67,20 @@ body {
     line-height: 1.5;
   }
 
+  .description a {
+    color: #eef0ea;
+  }
+  
+  .description ul {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-decoration: underline;
+    text-align: center;
+    list-style: none;
+
+  }
   .features {
     margin: 4em auto;
     padding: 1em;
